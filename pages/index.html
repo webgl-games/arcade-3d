@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Arcade 3D: play in your browser</title>
+  <meta name="description" content="Five open-source 3D games that run in the browser: open world, team deathmatch, battle royale, destruction sandbox and a rocket mission.">
+  <style>
+    :root { --bg: #0d0f16; --card: #171a26; --line: #262b3b; --text: #f2f3f7; --muted: #9aa1b5; --gold: #f0c040; }
+    * { box-sizing: border-box; }
+    body { margin: 0; background: var(--bg); color: var(--text); font-family: Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; }
+    main { max-width: 1040px; margin: 0 auto; padding: 48px 16px 64px; }
+    .kicker { display: inline-block; font-size: 12px; font-weight: 700; letter-spacing: 1.4px; color: #d6dae6; border: 1px solid #2c3348; background: #1c2131; border-radius: 999px; padding: 6px 14px; }
+    h1 { font-size: clamp(32px, 6vw, 52px); margin: 18px 0 8px; letter-spacing: -0.5px; }
+    h1 span { color: var(--gold); }
+    .lead { color: var(--muted); font-size: 17px; max-width: 680px; line-height: 1.5; margin: 0 0 32px; }
+    .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 16px; }
+    a.card { display: flex; flex-direction: column; text-decoration: none; color: inherit; background: var(--card); border: 1px solid var(--line); border-radius: 16px; padding: 22px; transition: transform .15s ease, border-color .15s ease; }
+    a.card:hover, a.card:focus-visible { transform: translateY(-3px); border-color: var(--gold); outline: none; }
+    .tag { font-size: 12px; font-weight: 700; letter-spacing: 1.2px; color: var(--gold); }
+    .card h2 { font-size: 22px; margin: 8px 0 6px; }
+    .card p { color: #c3c8d6; line-height: 1.5; margin: 0 0 18px; flex: 1; }
+    .play { align-self: flex-start; background: var(--gold); color: #141310; font-weight: 800; border-radius: 10px; padding: 9px 16px; }
+    .note { margin-top: 32px; color: var(--muted); font-size: 14px; line-height: 1.6; border-top: 1px solid var(--line); padding-top: 20px; }
+    .note a { color: #d6dae6; }
+  </style>
+</head>
+<body>
+  <main>
+    <span class="kicker">OPEN SOURCE · MIT · FREE</span>
+    <h1>Arcade <span>3D</span></h1>
+    <p class="lead">Five 3D games that run right in your browser. No install, no account. Use the keyboard and mouse; each game shows its controls before you start.</p>
+    <div class="grid">
+      <a class="card" href="tiny-planet.html">
+        <span class="tag">OPEN WORLD</span>
+        <h2>Explore the city</h2>
+        <p>Walk, drive and take boats around a living city with traffic, people and missions on the map.</p>
+        <span class="play">Play</span>
+      </a>
+      <a class="card" href="team-deathmatch.html">
+        <span class="tag">SHOOTER · 4 V 4</span>
+        <h2>Team Deathmatch</h2>
+        <p>Blue squad against red, first to 25. Practise offline against bots.</p>
+        <span class="play">Play</span>
+      </a>
+      <a class="card" href="battle-royale.html">
+        <span class="tag">SURVIVAL</span>
+        <h2>Battle Royale</h2>
+        <p>Parachute onto the island, loot weapons and outlast the shrinking safe zone. Play offline against bots.</p>
+        <span class="play">Play</span>
+      </a>
+      <a class="card" href="destruction.html">
+        <span class="tag">SANDBOX</span>
+        <h2>Destruction Sandbox</h2>
+        <p>Fly, drive and fire rockets to level the whole city, solo with a bot crew.</p>
+        <span class="play">Play</span>
+      </a>
+      <a class="card" href="rocket-mission.html">
+        <span class="tag">SIMULATION</span>
+        <h2>Rocket Mission</h2>
+        <p>Tour the factory, stack a rocket on the pad and fly it to orbit with live physics telemetry.</p>
+        <span class="play">Play</span>
+      </a>
+    </div>
+    <p class="note">This page runs the games on their own, so they play offline and against bots. Live multiplayer, voice chat, the in-game shop and billboards need the full app with its server: see <a href="https://github.com/webgl-games/arcade-3d">github.com/webgl-games/arcade-3d</a> to run it yourself. Part of <a href="https://github.com/webgl-games">webgl-games</a>.</p>
+  </main>
+</body>
+</html>
