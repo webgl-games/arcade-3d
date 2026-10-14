@@ -1,0 +1,8 @@
+# keep the image build context lean — and NEVER bake secrets into the image
+node_modules
+.next
+.git
+.claude
+.env*
+*.md
+Dockerfile

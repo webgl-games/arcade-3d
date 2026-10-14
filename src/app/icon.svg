@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <!-- Arcade 3D tab icon: a little green planet with an amber ring on a dark sky -->
+  <rect width="64" height="64" rx="14" fill="#111218"/>
+  <ellipse cx="32" cy="34" rx="26" ry="9" fill="none" stroke="#f4b740" stroke-width="3" transform="rotate(-18 32 34)"/>
+  <circle cx="32" cy="32" r="15" fill="#5a9a5a"/>
+  <path d="M22 27 q5 -6 12 -3 q6 2 8 8 q-7 4 -13 1 q-6 -2 -7 -6z" fill="#86c08b"/>
+  <circle cx="26" cy="38" r="3.4" fill="#4a86a0"/>
+  <ellipse cx="32" cy="34" rx="26" ry="9" fill="none" stroke="#f4b740" stroke-width="3" transform="rotate(-18 32 34)" stroke-dasharray="0 44 38 100"/>
+</svg>

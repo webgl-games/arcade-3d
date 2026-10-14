@@ -1,0 +1,32 @@
+{
+  "name": "arcade-3d",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Five browser 3D games in one: an open-world tiny planet, team deathmatch, battle royale, a destruction sandbox and a rocket mission, with online multiplayer and voice.",
+  "license": "MIT",
+  "scripts": {
+    "dev": "node server/dev.mjs",
+    "dev:web": "next dev",
+    "mp": "node server/mp-server.mjs",
+    "build": "next build",
+    "start": "node server/prod.mjs",
+    "start:web": "next start",
+    "lint": "eslint"
+  },
+  "dependencies": {
+    "mongodb": "^7.5.0",
+    "next": "16.2.9",
+    "react": "19.2.4",
+    "react-dom": "19.2.4",
+    "stripe": "^22.3.1",
+    "ws": "^8.21.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "eslint": "^9",
+    "eslint-config-next": "16.2.9",
+    "typescript": "^5"
+  }
+}
