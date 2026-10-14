@@ -5,6 +5,10 @@ world, from city streets to the surface of Mars. Online multiplayer with squad v
 earn and spend, and in-game city billboards that real businesses can book. Built with Next.js and
 Three.js. MIT licensed.
 
+**▶ Play in your browser: [webgl-games.github.io/arcade-3d](https://webgl-games.github.io/arcade-3d/)**
+(the games run offline and against bots there; live multiplayer, voice chat, the shop and
+billboards need the full app below).
+
 Part of [webgl-games](https://github.com/webgl-games), open-source games and 3D experiences for the browser.
 Siblings: [Flight Sim](https://github.com/webgl-games/flight-sim) (a WebGL flight simulator),
 [Live 3D Cricket](https://github.com/webgl-games/live-3d-cricket) (commentary feeds as 3D cricket) and
