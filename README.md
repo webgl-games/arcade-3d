@@ -5,10 +5,10 @@ world, from city streets to the surface of Mars. Online multiplayer with squad v
 earn and spend, and in-game city billboards that real businesses can book. Built with Next.js and
 Three.js. MIT licensed.
 
-Part of [splatverse](https://github.com/splatverse), a collection of open-source 3D projects for the browser.
-Siblings: [Flight Sim](https://github.com/splatverse/flight-sim) (a WebGL flight simulator),
-[Live 3D Cricket](https://github.com/splatverse/live-3d-cricket) (commentary feeds as 3D cricket) and
-[Splat Studio](https://github.com/splatverse/splat-studio) (video to 3D Gaussian splats).
+Part of [webgl-games](https://github.com/webgl-games), open-source games and 3D experiences for the browser.
+Siblings: [Flight Sim](https://github.com/webgl-games/flight-sim) (a WebGL flight simulator),
+[Live 3D Cricket](https://github.com/webgl-games/live-3d-cricket) (commentary feeds as 3D cricket) and
+[OpenCity](https://github.com/webgl-games/opencity) (an open-world driving game in Godot).
 
 ## The games
 
